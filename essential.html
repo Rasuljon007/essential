@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Essential</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav-content">
+          <div class="nav-content--left">
+            <img
+              src="./images/Logo 1.svg"
+              alt="Logo Essential"
+              class="nav-logo"
+            />
+            <div class="nav-link-wrap">
+              <a class="nav-link" href="./essential.html">Essential</a>
+              <a class="nav-link" href="/">O’yinlar</a>
+              <a class="nav-link" href="./tests.html">Testlar</a>
+            </div>
+          </div>
+          <div class="nav-content--right">
+            <button class="nav-button">
+              <a href="./login.html">Kirish</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="form-section">
+      <div class="container">
+        <div class="form-content">
+          <div class="form-group">
+            <label for="form-input" class="form-label">Kitob</label>
+            <div class="dropdown-wrapper">
+              <input
+                type="text"
+                id="form-input"
+                placeholder="Essential 1"
+                readonly
+              />
+              <img
+                class="dropdown-icon"
+                src="./images/Vector.svg"
+                alt="Dropdown arrow"
+              />
+            </div>
+            <ul class="dropdown-options">
+              <li class="dropdown-option">Essential 1</li>
+              <li class="dropdown-option">Essential 2</li>
+              <li class="dropdown-option">Essential 3</li>
+            </ul>
+          </div>
+          <div class="form-group">
+            <label for="form-input" class="form-label">Bo'lim</label>
+            <div class="dropdown-wrapper">
+              <input
+                type="text"
+                id="form-input"
+                placeholder="Unit 1"
+                readonly
+              />
+              <img
+                class="dropdown-icon"
+                src="./images/Vector.svg"
+                alt="Dropdown arrow"
+              />
+            </div>
+            <ul class="dropdown-options">
+              <li class="dropdown-option">Unit 1</li>
+              <li class="dropdown-option">Unit 2</li>
+              <li class="dropdown-option">Unit 3</li>
+            </ul>
+          </div>
+          <button class="test-button">Sinab ko'rish</button>
+        </div>
+      </div>
+    </section>
+    <section class="translation-section">
+      <div class="container">
+        <div class="translation-content">
+          <div class="translation-wrapper">
+            <div class="translation-column">
+              <div class="translation-header">
+                <p class="translation-title">English</p>
+                <img
+                  class="translation-icon"
+                  src="./images/english_icon.svg"
+                  alt="English icon"
+                />
+              </div>
+              <ul class="translation-list">
+                <li class="translation-item">1. Allow</li>
+                <li class="translation-item">2. Claim</li>
+                <li class="translation-item">3. Expert</li>
+                <li class="translation-item">4. Claim</li>
+                <li class="translation-item">5. Expert</li>
+              </ul>
+            </div>
+            <div class="translation-column">
+              <div class="translation-header">
+                <p class="translation-title">O’zbekcha</p>
+                <img
+                  class="translation-icon"
+                  src="./images/uzb_icon.svg"
+                  alt="Uzbek icon"
+                />
+              </div>
+              <ul class="translation-list">
+                <li class="translation-item">1. Ruxsat bermoq</li>
+                <li class="translation-item">2. Tasdiqlamoq</li>
+                <li class="translation-item">3. Mutaxasis</li>
+                <li class="translation-item">4. Tasdiqlamoq</li>
+                <li class="translation-item">5. Mutaxasis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- essential modals -->
+    <div class="essential-modal">
+      <div class="essential-modal-content">
+        <div class="essential-modal-header">
+          <h1>2.</h1>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 10%"></div>
+          </div>
+          <div>
+            <img src="./images/close-btn.svg" alt="close btn" />
+          </div>
+        </div>
+        <div class="essential-modal-body">
+          <h1 class="essential-modal-title">Mutaxasis</h1>
+          <img src="./images/check.svg" alt="Check Icon" class="check-icon" />
+          <img src="./images/x-icon.svg" alt="X Icon" class="x-icon" />
+        </div>
+        <div class="essential-modal-footer">
+          <label for="input-translation" class="labeline"
+            >Tarjima kiriting</label
+          >
+          <input
+            type="text"
+            placeholder="Ruxsat berish"
+            class="essential-modal-input"
+          />
+          <button class="essential-modal-button">Keyingi</button>
+        </div>
+      </div>
+    </div>
+    <div class="essential-audio-modal hidden">
+      <div class="essential-audio-modal-content">
+        <div class="essential-audio-modal-header">
+          <h1>2.</h1>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 10%"></div>
+          </div>
+          <div>
+            <img src="./images/close-btn.svg" alt="close btn" />
+          </div>
+        </div>
+        <div class="essential-audio-modal-body">
+          <audio controls loop src=""></audio>
+          <img src="./images/check.svg" alt="Check Icon" class="check-icon" />
+          <img src="./images/x-icon.svg" alt="X Icon" class="x-icon" />
+        </div>
+        <div class="essential-audio-modal-footer">
+          <label for="input-translation" class="labeline"
+            >So’zni kiriting</label
+          >
+          <input
+            type="text"
+            placeholder="Audiodagi so’zni kiriting"
+            class="essential-audio-modal-input"
+          />
+          <button class="essential-modal-audio-button">Keyingi</button>
+        </div>
+      </div>
+    </div>
+    <div class="essential-result-modal hidden">
+      <div class="essential-result-modal-content">
+        <div class="essential-result-modal-header">
+          <h1>20.</h1>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+          <div>
+            <img src="./images/close-btn.svg" alt="close btn" />
+          </div>
+        </div>
+        <div class="essential-result-modal-body">
+          <div>
+            <h1>12</h1>
+            <img src="./images/check.svg" alt="Check Icon" class="check-icon" />
+          </div>
+          <div>
+            <h1>8</h1>
+            <img src="./images/x-icon.svg" alt="X Icon" class="x-icon" />
+          </div>
+        </div>
+        <div class="essential-result-modal-footer">
+          <button class="essential-result-modal-button--again">
+            Qayta boshlash
+          </button>
+          <button class="essential-result-modal-button">Keyingi</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-content--left">
+            <p class="footer-title">Asoschilar</p>
+            <div class="footer-associates">
+              <img src="./images/assoschi_ 1.png" alt="Founder 1" />
+              <img src="./images/assoschi_2.png" alt="Founder 2" />
+            </div>
+          </div>
+          <div class="footer-content--right">
+            <ul class="footer-links">
+              <li>Bog’lanish</li>
+              <li>
+                <a href="mailto:muhiddinsobirov957@gmail.com"
+                  >muhiddinsobirov957@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="mailto:abdusaitov@gmail.com">abdusaitov@gmail.com</a>
+              </li>
+            </ul>
+            <ul class="footer-links">
+              <li>Bo’limlar</li>
+              <li><a href="/">Asosiy</a></li>
+              <li><a href="./essential.html">Essential</a></li>
+              <li><a href="/">O’yinlar</a></li>
+              <li><a href="/">Test</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

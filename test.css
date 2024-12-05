@@ -1,0 +1,84 @@
+.test-form {
+  margin-top: 134px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.end-wrapper {
+  gap: 17px;
+  align-items: flex-end;
+}
+
+.added-unit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 21px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #09424f8a;
+}
+
+.add-btn {
+  padding: 21px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #09424f8a;
+}
+
+.selection-bar {
+  margin-top: 17px;
+  margin-bottom: 120px;
+
+  padding: 10px 15px 10px 15px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #eaffd9;
+}
+
+select {
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.test-form-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.unversal-btn {
+  padding: 6px 21px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #09424f;
+  height: 42px;
+
+  font-family: Gill Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.start-test-button {
+  background-color: #76deff;
+}
+
+.clear-form-button {
+  background-color: #ff7676;
+  color: #fff;
+}
+
+fieldset {
+  padding: 6px 10px 6px 10px;
+  gap: 60px;
+  border-radius: 4px;
+}
